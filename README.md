@@ -1,2 +1,2 @@
-# domoticz
+# Domoticz
 Raspberry PI Domoticz install
