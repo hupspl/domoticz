@@ -63,3 +63,7 @@ Username: mqtt
 Password: password
 Publish topic: out
 
+6. Na koniec
+
+ `pip3 install --requirement requirements.txt --target`
+
