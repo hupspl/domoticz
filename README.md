@@ -35,10 +35,13 @@ Instalacja konsola Raspberry PI <br>
  
  `sudo vim /etc/mosquitto/mosquitto.conf`
 
- `allow_anonymous false 
-  password_file /etc/mosquitto/pwfile `
+  allow_anonymous false 
+  `password_file /etc/mosquitto/pwfile `
 
 
 Zapisujemy plik.
+ 
+ 4.Otwieramy plik rc.local: 
 
+ `sudo vim /etc/rc.local
 
