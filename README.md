@@ -45,3 +45,21 @@ Zapisujemy plik.
 
  `sudo vim /etc/rc.local`
 
+Wstaw przed "exit 0 " następujące informacje: 
+
+  `/usr/sbin/mosquitto -d`
+
+4. Restart  :sudo reboot
+
+5. Wchodzimt do Domoricza w ustawienai 
+   Konfiguracja/Sprzet i dodajemy:
+
+
+name: mqtt
+type: MQTT Client Gateway with LAN interface
+remote address: IP adres pi
+Port: 1883
+Username: mqtt
+Password: password
+Publish topic: out
+
