@@ -14,6 +14,10 @@ Instalacja konsola Raspberry PI <br>
 # DOMOTICZ SERVER
 
 `sudo /etc/init.d/domoticz.sh start`
+</br>
+
 `sudo /etc/init.d/domoticz.sh stop`
+
 `sudo /etc/init.d/domoticz.sh restart`
+
 `sudo /etc/init.d/domoticz.sh status`
