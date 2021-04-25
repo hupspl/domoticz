@@ -27,11 +27,18 @@ Instalacja konsola Raspberry PI <br>
 
 `sudo apt-get install mosquitto mosquitto-clients`
 
-2. Zrobić użytkownika mqtt:
+2. Stwożyć użytkownika mqt oraz haslo:
 
 `sudo mosquitto_passwd -c /etc/mosquitto/pwfile mqtt`
 
 3. Dodaj kilka reguł do konfiguracji: 
  
  `sudo vim /etc/mosquitto/mosquitto.conf`
+
+ `allow_anonymous false 
+  password_file /etc/mosquitto/pwfile `
+
+
+Zapisujemy plik.
+
 
