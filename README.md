@@ -43,5 +43,5 @@ Zapisujemy plik.
  
  4.Otwieramy plik rc.local: 
 
- `sudo vim /etc/rc.local
+ `sudo vim /etc/rc.local`
 
