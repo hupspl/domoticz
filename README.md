@@ -21,6 +21,11 @@ Instalacja konsola Raspberry PI <br>
 
 `sudo /etc/init.d/domoticz.sh status`
 
+Gdy nie wstaje 
+
+`sudo update-rc.d domoticz.sh defaults`
+
+
 # Domoticz MQTT konfiguracja
 
 1. Instalacja MQTT: 
